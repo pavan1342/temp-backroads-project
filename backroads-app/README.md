@@ -396,8 +396,8 @@ package.json
 ```json
 "scripts": {
     "start": "react-scripts start",
-    "build": "CI= react-scripts build",
-    "local-build": "react-scripts build",
+    "build": "CI= react-scripts build", /* this is going to work for only netlify */
+    "local-build": "react-scripts build", /*  if we want this work locally this how we should write local-build */
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
